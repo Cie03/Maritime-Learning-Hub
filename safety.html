@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maritime Safety - Maritime Learning Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://img.freepik.com/premium-vector/nautical-anchor-simple-style-maritime-icon_92242-5727.jpg">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-anchor me-2"></i>Maritime Learning Hub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sea-life.html">Sea Life</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ports-shipping.html">Ports & Shipping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="safety.html">Safety</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-lg-3 mt-3 mt-lg-0">
+                    <input class="form-control me-2" type="search" placeholder="Search topics..." aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-5 fw-bold mb-3">Maritime Safety & Navigation</h1>
+                    <p class="lead">Learn about safety rules, navigation methods, and emergency procedures used at sea. Understand how sailors stay safe and find their way across the ocean.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Topics -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Learning Topics</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card topic-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="topic-icon mb-3">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 class="card-title">Safety Rules</h4>
+                            <p class="card-text">International regulations and procedures to ensure safety at sea.</p>
+                            <div class="mt-3">
+                                <span class="topic-badge">3 topics</span>
+                            </div>
+                            <button class="btn btn-link mt-2" data-bs-toggle="collapse" data-bs-target="#rulesContent">View Topics <i class="fas fa-chevron-down"></i></button>
+                            <div class="collapse mt-3" id="rulesContent">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item list-group-item-action">SOLAS Convention</a>
+                                    <a href="#" class="list-group-item list-group-item-action">STCW Requirements</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Port State Control</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card topic-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="topic-icon mb-3">
+                                <i class="fas fa-compass"></i>
+                            </div>
+                            <h4 class="card-title">Navigation</h4>
+                            <p class="card-text">Methods and tools used for safe navigation at sea.</p>
+                            <div class="mt-3">
+                                <span class="topic-badge">4 topics</span>
+                            </div>
+                            <button class="btn btn-link mt-2" data-bs-toggle="collapse" data-bs-target="#navContent">View Topics <i class="fas fa-chevron-down"></i></button>
+                            <div class="collapse mt-3" id="navContent">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item list-group-item-action">Electronic Navigation</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Celestial Navigation</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Chart Reading</a>
+                                    <a href="#" class="list-group-item list-group-item-action">GPS Systems</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card topic-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="topic-icon mb-3">
+                                <i class="fas fa-broadcast-tower"></i>
+                            </div>
+                            <h4 class="card-title">Communication</h4>
+                            <p class="card-text">Systems and protocols for maritime communication.</p>
+                            <div class="mt-3">
+                                <span class="topic-badge">3 topics</span>
+                            </div>
+                            <button class="btn btn-link mt-2" data-bs-toggle="collapse" data-bs-target="#commContent">View Topics <i class="fas fa-chevron-down"></i></button>
+                            <div class="collapse mt-3" id="commContent">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item list-group-item-action">GMDSS Systems</a>
+                                    <a href="#" class="list-group-item list-group-item-action">VHF Radio Procedures</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Emergency Signals</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card topic-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="topic-icon mb-3">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <h4 class="card-title">Emergencies</h4>
+                            <p class="card-text">Procedures for handling emergencies at sea.</p>
+                            <div class="mt-3">
+                                <span class="topic-badge">4 topics</span>
+                            </div>
+                            <button class="btn btn-link mt-2" data-bs-toggle="collapse" data-bs-target="#emergencyContent">View Topics <i class="fas fa-chevron-down"></i></button>
+                            <div class="collapse mt-3" id="emergencyContent">
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item list-group-item-action">Abandon Ship Procedures</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Fire Fighting</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Man Overboard</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Medical Emergencies</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Equipment -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Important Safety Equipment</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="equipment-item">
+                        <div class="equipment-icon">
+                            <i class="fas fa-life-ring"></i>
+                        </div>
+                        <h5 class="mt-3" style="color: blue;">Life Jackets</h5>
+                        <p>Essential flotation devices that keep people safe in water. Required on all vessels.</p>
+                        <div class="mt-3">
+                            <span class="badge bg-info">Required by law</span>
+                        </div>
+                        <button class="btn btn-sm btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#lifejacketModal">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="equipment-item">
+                        <div class="equipment-icon">
+                            <i class="fas fa-ship"></i>
+                        </div>
+                        <h5 class="mt-3" style="color: blue;">Lifeboats</h5>
+                        <p>Emergency boats used when ships need to be evacuated. Must be regularly inspected.</p>
+                        <div class="mt-3">
+                            <span class="badge bg-info">Capacity for all</span>
+                        </div>
+                        <button class="btn btn-sm btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#lifeboatModal">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="equipment-item">
+                        <div class="equipment-icon">
+                            <i class="fas fa-walkie-talkie"></i>
+                        </div>
+                        <h5 class="mt-3" style="color: blue;">Radio Equipment</h5>
+                        <p>Communication tools to call for help during emergencies. Part of GMDSS system.</p>
+                        <div class="mt-3">
+                            <span class="badge bg-info">24/7 Monitoring</span>
+                        </div>
+                        <button class="btn btn-sm btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#radioModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional Equipment -->
+            <div class="row g-4 mt-3">
+                <div class="col-md-3 col-sm-6">
+                    <div class="equipment-item">
+                        <div class="equipment-icon">
+                            <i class="fas fa-fire-extinguisher"></i>
+                        </div>
+                        <h6 class="mt-2" style="color: blue;">Fire Extinguishers</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="equipment-item">
+                        <div class="equipment-icon">
+                            <i class="fas fa-first-aid"></i>
+                        </div>
+                        <h6 class="mt-2" style="color: blue;">First Aid Kits</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="equipment-item">
+                        <div class="equipment-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h6 class="mt-2" style="color: blue;">Alarm Systems</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="equipment-item">
+                        <div class="equipment-icon">
+                            <i class="fas fa-satellite-dish"></i>
+                        </div>
+                        <h6 class="mt-2" style="color: blue;">EPIRB</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Procedures -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Essential Safety Procedures</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h4 class="card-title"><i class="fas fa-fire me-2 text-danger"></i>Fire Safety</h4>
+                            <p>All crew members must undergo regular fire safety training. Ships carry various types of fire extinguishers for different classes of fire.</p>
+                            <ul>
+                                <li>Regular fire drills</li>
+                                <li>Proper storage of flammable materials</li>
+                                <li>Maintenance of fire detection systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h4 class="card-title"><i class="fas fa-user-friends me-2 text-primary"></i>Man Overboard</h4>
+                            <p>Immediate action procedures when someone falls overboard. Time is critical in these situations.</p>
+                            <ul>
+                                <li>Shout "Man Overboard" to alert others</li>
+                                <li>Throw lifebuoy immediately</li>
+                                <li>Keep visual contact with person</li>
+                                <li>Execute recovery maneuver</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h4 class="card-title"><i class="fas fa-ship me-2 text-warning"></i>Abandon Ship</h4>
+                            <p>When remaining on board poses greater danger than evacuation. This is a last resort measure.</p>
+                            <ul>
+                                <li>Don life jackets</li>
+                                <li>Gather at muster stations</li>
+                                <li>Follow captain's orders</li>
+                                <li>Take survival equipment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h4 class="card-title"><i class="fas fa-ambulance me-2 text-success"></i>Medical Emergencies</h4>
+                            <p>Procedures for handling medical situations at sea when professional medical help may be hours away.</p>
+                            <ul>
+                                <li>First aid training for crew</li>
+                                <li>Medical kits on board</li>
+                                <li>Telemedical assistance</li>
+                                <li>Evacuation procedures</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Drills -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Regular Safety Drills</h2>
+                    <p>Safety drills are conducted regularly on all commercial vessels to ensure crew readiness in emergencies. The International Convention for the Safety of Life at Sea (SOLAS) requires:</p>
+                    <div class="mt-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-calendar-check text-primary me-3 fa-lg"></i>
+                            <div>
+                                <h5 class="mb-1">Weekly Drills</h5>
+                                <p class="mb-0">Abandon ship and fire drills must be conducted weekly</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-users text-primary me-3 fa-lg"></i>
+                            <div>
+                                <h5 class="mb-1">Crew Participation</h5>
+                                <p class="mb-0">All crew members must participate in drills</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-clipboard-check text-primary me-3 fa-lg"></i>
+                            <div>
+                                <h5 class="mb-1">Documentation</h5>
+                                <p class="mb-0">All drills must be recorded in the ship's log</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4">
+                            <h4 class="card-title text-center mb-4">Emergency Signals</h4>
+                            <div class="emergency-signals">
+                                <div class="d-flex justify-content-between border-bottom py-2">
+                                    <span><strong>General Alarm</strong></span>
+                                    <span>7 short blasts + 1 long blast</span>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom py-2">
+                                    <span><strong>Fire Alarm</strong></span>
+                                    <span>Continuous ringing of bell</span>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom py-2">
+                                    <span><strong>Abandon Ship</strong></span>
+                                    <span>6 short blasts + 1 long blast</span>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom py-2">
+                                    <span><strong>Man Overboard</strong></span>
+                                    <span>3 long blasts</span>
+                                </div>
+                                <div class="d-flex justify-content-between py-2">
+                                    <span><strong>Distress Call</strong></span>
+                                    <span>MAYDAY on radio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Equipment Details -->
+    <div class="modal fade" id="lifejacketModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Life Jackets</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Purpose:</strong> Personal flotation devices designed to keep a person's head above water.</p>
+                    <p><strong>Types:</strong> Inflatable, foam-filled, hybrid</p>
+                    <p><strong>Requirements:</strong> Must be readily accessible, properly sized, and in good condition</p>
+                    <p><strong>Inspection:</strong> Monthly visual inspection, annual servicing for inflatables</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="lifeboatModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Lifeboats</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Purpose:</strong> Fully enclosed boats for evacuation during emergencies.</p>
+                    <p><strong>Capacity:</strong> Must accommodate all persons on board</p>
+                    <p><strong>Features:</strong> Self-righting, fire-protected, motorized</p>
+                    <p><strong>Drills:</strong> Must be launched and maneuvered quarterly</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="radioModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Maritime Radio Equipment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>GMDSS:</strong> Global Maritime Distress and Safety System</p>
+                    <p><strong>Equipment:</strong> VHF radio, MF/HF radio, satellite communication</p>
+                    <p><strong>Requirements:</strong> Continuous watch on distress frequencies</p>
+                    <p><strong>Testing:</strong> Daily testing of equipment functionality</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-logo">
+                        <i class="fas fa-anchor me-2"></i>Maritime Learning Hub
+                    </div>
+                    <p>Learning about the ocean, maritime safety, and the importance of our seas.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="mb-4">LEARN ABOUT</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="sea-life.html" class="footer-link">Sea Life & Environment</a></li>
+                        <li><a href="ports-shipping.html" class="footer-link">Port & Shipping</a></li>
+                        <li><a href="safety.html" class="footer-link">Safety & Navigation</a></li>
+                        <li><a href="careers.html" class="footer-link">Maritime Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-4">INFORMATION</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="footer-link">About This Website</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link">For Teachers</a></li>
+                        <li><a href="#" class="footer-link">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="mb-4">CONTACT</h5>
+                    <p class="mb-3">
+                        <i class="fas fa-envelope me-2"></i>
+                        <a href="mailto:launch@maritimehub.com" class="footer-link">S76464@maritimehub.com</a>
+                    </p>
+                    <p class="small">Educational inquiries welcome</p>
+                    <div class="mt-4">
+                        <p class="small mb-0">© 2025 Maritime Learning Hub.</p>
+                        <p class="small">An educational resource for students and learners.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
